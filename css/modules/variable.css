@@ -1,0 +1,36 @@
+:root, [data-theme="default"] {
+    /*var color  */
+    --main-bg-color: #ffffff;
+    --color-primary: blue;
+    --color-text-sidebar: white;
+
+
+    /*var sidebar*/
+    --copyright-color: #ACADC1;
+    --color-text-beta: #656AD9;
+    --bg-logo__beta: #656AD9;
+
+    /*var type view*/
+
+    --btn-view-bg: #F0F1FA;
+    --btn-view-border: rgba(0,0,0,0.1);
+    --btn-view-bg-hover: #52458A;
+    --btn-view-border-active: #52458A;
+
+
+    /*var plp*/
+    --color-tile-text: #2F2949;
+    --color-tile-description-text: #777777;
+    --border-tile: #DDDDDD;
+    --border-tile-hover: #52458A;
+    --border-tile-active: #52458A;
+
+
+    /*var fonts*/
+    --fonts-Tenor-Sans: 'Tenor Sans', sans-serif;
+    --fonts-IBM-Plex: 'IBM Plex Sans', sans-serif;
+
+    /*var element color */
+    --sidebar-border-w: rgba(255,255,255,0.2);
+
+}

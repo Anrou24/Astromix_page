@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
+	<title>Adventures-Test</title>
+	<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<!--END head-->
+
+    <body>
+    <div class="wrapper-cont">
+        <!-- Sidebar -->
+        <nav class="sidebar sidebar_left">
+            <div class="sidebar-header">
+                <a href="#" class="logo">
+                    <picture>
+                        <source srcset="images/logo-desktop.svg" media="(min-width: 992px)">
+                        <img src="images/logo-mobile.svg" alt="Astromix">
+                    </picture>
+                    <span class="logo__beta">beta</span>
+                </a>
+                <button class="btn-mobile-nav"></button>
+            </div>
+            <div class="sidebar-content">
+                <ul class="sidebar-item-list">
+                    <li class="sidebar-nav-item">
+                        <a href="#" class="sidebar-nav-link"><span>Dashboard</span></a></li>
+                    <li class="sidebar-nav-item">
+                        <a href="#" class="sidebar-nav-link"><span>Lab</span></a></li>
+                    <li class="sidebar-nav-item">
+                        <a href="#" class="sidebar-nav-link icon-arrow-right"><span>Products</span></a></li>
+                    <li class="sidebar-nav-item">
+                        <a href="#" class="sidebar-nav-link"><span>Messages</span></a></li>
+                    <li class="sidebar-nav-item">
+                        <a href="#" class="sidebar-nav-link icon-arrow-right"><span>Settings</span></a></li>
+                    <li class="sidebar-nav-item">
+                        <a href="#" class="sidebar-nav-link"><span>Profile</span></a></li>
+                    <li class="sidebar-nav-item">
+                        <a href="#" class="sidebar-nav-link"><span>Help</span></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>Astromix &copy; 2018 – 2020</p>
+                </div>
+            </div>
+        </nav>
+        <!--END Sidebar-->
+
+        <div class="container_page">
+
+            <div class="container">
+                <div class="header-tile-product">
+                    <div class="title_product-list">
+                        <h1>Products</h1>
+                    </div>
+                    <div class="view-lists">
+                        <ul class="tile-product__view-Selector">
+                            <li class="tile-product__view-item">
+                                <button type="button" class="btn__view-item btnViewTile">
+                                    <i class="view-icon view-tile">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.5 3.5V0.5H4V3.5H0Z"/>
+                                            <path d="M6.5 3.5V0.5H9.5V3.5H6.5Z"/>
+                                            <path d="M12.5 3.5V0.5H15.5V3.5H12.5Z"/>
+                                            <path d="M6.5 9.5V6.5H9.5V9.5H6.5Z"/>
+                                            <path d="M0.5 9.5V6.5H4V9.5H3.5Z"/>
+                                            <path d="M12.5 9.5V6.5H15.5V9.5H12.5Z"/>
+                                            <path d="M6.5 15.5V12.5H9.5V15.5H6.5Z"/>
+                                            <path d="M0.5 15.5V12.5H4V15.5H3.5Z"/>
+                                            <path d="M12.5 15.5V12.5H15.5V15.5H12.5Z"/>
+                                        </svg>
+                                    </i>
+                                </button>
+                            </li>
+                            <li class="tile-product__view-item">
+                                <button type="button" class="btn__view-item btnViewTileList">
+                                    <i class="view-icon view-tile-list">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 0.5H16M6 3.5H16M6 6.5H16M6 9.5H16M6 12.5H16M6 15.5H16M0.5 0.5V3.5H3.5V0.5H0.5ZM0.5 6.5V9.5H3.5V6.5H0.5ZM0.5 12.5V15.5H3.5V12.5H0.5Z"/>
+                                        </svg>
+                                    </i>
+                                </button>
+                            </li>
+                            <li class="tile-product__view-item">
+                                <button type="button" class="btn__view-item btnViewList">
+                                    <i class="view-icon view-list">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0.5H16M0 3.5H16M0 6.5H16M0 9.5H16M0 12.5H16M0 15.5H16"/>
+                                        </svg>
+                                    </i>
+                                </button>
+                            </li>
+                            <li class="tile-product__view-item">
+                                <button type="button" class="btn__view-item btnViewOtherTile">
+                                    <i class="view-icon view-other-tile">
+                                        <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0.5H2M0 3.5H2M0 6.5H2M0 9.5H2M0 12.5H2M0 15.5H2M4 0.5H6M4 3.5H6M4 6.5H6M4 9.5H6M4 12.5H6M4 15.5H6M14 0.5H12M14 3.5H12M14 6.5H12M14 9.5H12M14 12.5H12M14 15.5H12M10 15.5H8M8 12.5H10M10 9.5H8M8 6.5H10M10 3.5H8M8 0.5H10"/>
+                                        </svg>
+                                    </i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!--product-tile-->
+                <section class="product-grid">
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/galaxy.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/calendar-month.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/calendar-day.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/briefcase.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product with few linef of text</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/best-employee.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/successful-deal.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/idea-generation.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pole-md-3 pole-sm-6 pole-6 pd-0">
+                        <div class="tile-product__cell">
+                            <a href="#" class="tile-product__link">
+                                <img src="images/icon/entrance-door.svg" alt="Product Name" class="tile-product__image">
+                            </a>
+                            <a href="#" class="tile-product__heading">
+                                <div class="tile-product__name"><span class="tile-product__title">Product Name</span></div>
+                                <div class="tile-product__name"><span class="tile-product__description">Text about product</span></div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!--END product-tile-->
+
+                <!--bottom-description-->
+
+                <div class="product-list-description bottom-description">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                </div>
+
+                <!--END bottom-description-->
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--END script-->
+
+    </body>
+</html>

@@ -1,0 +1,201 @@
+section.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.header-tile-product {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_product-list h1 {
+ font-size: 30px;
+}
+
+.tile-product__view-Selector {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+.btn__view-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0 0 0;
+    width: 40px;
+    height: 30px;
+    background: var(--btn-view-bg);
+    border: 1px solid var(--btn-view-border);
+    transition:all 0.2s ease 0s;
+}
+
+.btn__view-item:hover {
+    background: var(--btn-view-bg-hover);
+    transition: 0.4s ease 0s;
+}
+
+.btn__view-item .view-icon svg path {
+    stroke: #000000;
+    opacity: 0.2;
+}
+
+.btn__view-item:hover .view-icon svg path {
+    stroke: #ffffff;
+    opacity: 1;
+}
+
+.btn__view-item.active, .btn__view-item:active{
+    border-color: var(--btn-view-border-active);
+    background: var(--btn-view-bg);
+    transition: 0.4s ease 0s;
+}
+
+.btn__view-item.active .view-icon svg path,
+.btn__view-item:active .view-icon svg path {
+    stroke: var(--btn-view-border-active);
+    opacity: 1;
+    transition: 0.4s ease 0s;
+}
+
+.tile-product__cell {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 233px;
+    padding: 22px;
+    border: 1px solid var(--border-tile);
+    transition: 0.2s ease 0s;
+}
+
+.tile-product__link {
+    display: flex;
+    align-content: center;
+    flex: 0 0 100%;
+    justify-content: center;
+    height: 33vw;
+}
+
+.tile-product__link img {
+    display: block;
+}
+
+.tile-product__cell:hover {
+    border: 1px solid var(--border-tile-hover);
+    box-shadow: 0 5px 20px rgba(82, 69, 138, 0.3);
+    transition:  0.4s ease 0s;
+}
+.tile-product__cell.active {
+    border: 1px solid var(--border-tile-active);
+    transition: 0.4s ease 0s;
+}
+
+.tile-product__heading {
+    display: block;
+   }
+
+.tile-product__name {
+    display: flex;
+    flex: 0 0 100%;
+}
+
+.tile-product__heading .tile-product__title {
+    position: relative;
+    font-size: 16px;
+    color: var(--color-tile-text);
+}
+
+.tile-product__heading .tile-product__title:after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    height: 10px;
+    width: 17px;
+    background: url(../../images/icon/arrow-tile-right.svg) no-repeat 0 0;
+    opacity: 0;
+    transition: all 0.2s ease;
+    -khtml-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+
+}
+
+.tile-product__cell:hover .tile-product__heading .tile-product__title:after {
+    opacity: 1;
+    right: -25px;
+    transition: all 0.4s ease;
+}
+
+.tile-product__heading .tile-product__description {
+    font-size: 13px;
+    font-family: var(--fonts-IBM-Plex);
+    color: var(--color-tile-description-text);
+}
+
+.product-list-description {
+    display: flex;
+    font-size: 16px;
+    max-width: 70%;
+    flex: 0 0 100%;
+    font-family: var(--fonts-IBM-Plex);
+}
+
+@media only screen and (min-width: 500px) {
+
+    .tile-product__link {
+        height: 23vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    section.product-grid {
+        padding: 30px 0 45px;
+    }
+
+    .tile-product__cell {
+        padding: 30px;
+        height: 333px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .tile-product__heading .tile-product__title:after {
+        display: inline-block;
+    }
+
+    .title_product-list h1 {
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1199px) {
+
+    .tile-product__link {
+        height: 16vw;
+    }
+
+    .tile-product__heading .tile-product__title {
+        font-size: 20px;
+    }
+
+    .tile-product__heading .tile-product__description {
+        font-size: 16px;
+    }
+
+    .tile-product__heading .tile-product__title:after {
+        top:7px;
+    }
+}
+

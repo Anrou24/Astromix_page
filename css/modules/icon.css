@@ -1,0 +1,9 @@
+
+.icon-arrow-right:before {
+    content: "";
+    position: absolute;
+    right: 30px;
+    height: 10px;
+    width: 17px;
+    background: url(../../images/icon/arrow-right.svg) no-repeat 0 0;
+}

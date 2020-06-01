@@ -1,0 +1,163 @@
+* {
+    -khtml-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    background: #fff;
+    font-family: var(--fonts-Tenor-Sans);
+    font-size: 1em;
+    color: #333333;
+}
+
+img {
+    border: none;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover {
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
+
+input {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+
+.clear:before,
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    zoom: 1;
+}
+
+section {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+}
+
+.wrapper-cont {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper-cont {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper-cont {
+        flex-wrap: nowrap;
+    }
+}
+
+.container_page {
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    transition: all 0.3s;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .container_page {
+        padding: 45px;
+        margin: 0;
+    }
+}
+
+.pd-0 {
+    padding: 0!important;
+}
+.mg-0 {
+    margin: 0!important;
+}
+
+
+
