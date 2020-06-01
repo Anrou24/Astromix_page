@@ -76,10 +76,11 @@ section.product-grid {
 
 .tile-product__link {
     display: flex;
+    position: relative;
     align-content: center;
     flex: 0 0 100%;
     justify-content: center;
-    height: 33vw;
+    height: 80%;
 }
 
 .tile-product__link img {
@@ -148,13 +149,6 @@ section.product-grid {
     font-family: var(--fonts-IBM-Plex);
 }
 
-@media only screen and (min-width: 500px) {
-
-    .tile-product__link {
-        height: 23vw;
-    }
-}
-
 @media only screen and (min-width: 768px) {
 
     section.product-grid {
@@ -181,10 +175,6 @@ section.product-grid {
 }
 
 @media only screen and (min-width: 1199px) {
-
-    .tile-product__link {
-        height: 16vw;
-    }
 
     .tile-product__heading .tile-product__title {
         font-size: 20px;
