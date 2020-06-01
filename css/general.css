@@ -120,6 +120,7 @@ section {
 }
 
 @media only screen and (min-width: 768px) {
+
     .wrapper-cont {
         width: 100%;
         margin-right: 0;
@@ -128,6 +129,7 @@ section {
 }
 
 @media only screen and (min-width: 992px) {
+
     .wrapper-cont {
         flex-wrap: nowrap;
     }
@@ -146,6 +148,7 @@ section {
 
 
 @media only screen and (min-width: 992px) {
+
     .container_page {
         padding: 45px;
         margin: 0;

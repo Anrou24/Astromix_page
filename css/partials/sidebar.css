@@ -22,7 +22,7 @@
 }
 
 .sidebar-header .logo__beta {
-position: relative;
+    position: relative;
     top: -10px;
     right: -5px;
     font-size: 13px;
@@ -130,6 +130,7 @@ position: relative;
 }
 
 @media only screen and (min-width: 992px) {
+
     .sidebar {
         position: relative;
         max-width: 100%;

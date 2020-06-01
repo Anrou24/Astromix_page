@@ -144,8 +144,8 @@ section.product-grid {
 .product-list-description {
     display: flex;
     font-size: 16px;
-    max-width: 70%;
     flex: 0 0 100%;
+    max-width: 690px;
     font-family: var(--fonts-IBM-Plex);
 }
 
